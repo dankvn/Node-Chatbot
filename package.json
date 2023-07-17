@@ -1,0 +1,27 @@
+{
+    "name": "base-meta-memory",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "pre-copy": "cd .. && npm run  copy.lib base-meta-memory",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "dependencies": {
+        "@bot-whatsapp/bot": "latest",
+        "@bot-whatsapp/cli": "latest",
+        "@bot-whatsapp/contexts": "^0.1.29",
+        "@bot-whatsapp/database": "latest",
+        "@bot-whatsapp/provider": "latest",
+        "@google-cloud/dialogflow": "^5.9.0",
+        "@google-cloud/dialogflow-cx": "^3.8.0",
+        "axios": "^1.2.1",
+        "body-parser": "^1.20.1",
+        "dialogflow": "^1.2.0",
+        "dotenv": "^16.3.1",
+        "polka": "^0.5.2"
+    },
+    "author": "",
+    "license": "ISC"
+}
